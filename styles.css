@@ -153,7 +153,8 @@ nav ul li{
     font-weight: 400;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    cursor: pointer;
 }
 
 #btn-download{
@@ -169,5 +170,46 @@ nav ul li{
     font-weight: 400;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    cursor: pointer;
+}
+
+#hero{
+    width: 100%;
+    height: 875px;
+    padding: 112px 20px 67.2px 20px;
+    box-sizing: content-box;
+}
+
+#hero-center{
+    width: 1300px;
+    height: 874px;
+    margin: 0 auto;
+}
+
+#hero-text{
+    font-size: 1.625rem;
+    line-height: 1.25;
+    font-weight: 400;
+    letter-spacing: -0.0125rem;
+    margin-bottom: 22.4px;
+}
+
+#hero-btn{
+    font-size: 1rem;
+    font-family : CursorGothic;
+    border: none;
+    border-radius: 3.40282e38px;
+    padding: 12.48px 21.6px 12.8px 21.6px;
+    color: #14120b;
+    background-color: #edecec;
+    border : 1px solid #d7d6d5;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-center div{
+    margin-bottom: 56px;
 }
