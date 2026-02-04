@@ -391,3 +391,72 @@ h1,h2,h4,p,button,a{
 a, button {
     cursor: pointer;
 }
+
+#reviews{
+    width: 100%;
+    height: 665.5px;
+    padding: 67.2px 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    box-sizing: content-box;
+}
+
+#reviews > h2 {
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+#reviews-wrapper {
+    padding: 0 ;
+    width: 1300px;
+    height: 665px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7px;
+}
+
+.review{
+    width: 391.6px;
+    height: 244.7px;
+    background-color: #1b1913;
+    border-radius: 4px;
+    padding: 15.9px 17.5px 17.5px 17.5px;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+    color: #edecec;
+}
+
+#review-author {
+    display: flex;
+    gap: 12px;
+}
+
+#review-author-data{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#review-author-data > p{
+    color : color-mix(in oklab,#edecec/**/60%,transparent)
+}
+
+#review-author-pic img{
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+}
