@@ -381,8 +381,13 @@ h4{
 	font-weight: 400;
 	letter-spacing: 0.005em;
 	text-decoration: none;
+    cursor: pointer;
 }
 
 h1,h2,h4,p,button,a{
     font-family: CursorGothic;
+}
+
+a, button {
+    cursor: pointer;
 }
