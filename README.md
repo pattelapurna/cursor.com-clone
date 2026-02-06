@@ -1,6 +1,7 @@
 # cursor.com-clone
 
-Static clone of the Cursor marketing site.
+Static clone of the Cursor.com. is a UI clone 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3d8c438d-fa14-45ed-bb36-0639c33bd968/deploy-status)](https://app.netlify.com/projects/cursor-ui-ppc/deploys)
 
 ## What’s Here
 - `index.html` — page markup
