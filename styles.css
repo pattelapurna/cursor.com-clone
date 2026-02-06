@@ -452,11 +452,79 @@ a, button {
 }
 
 #review-author-data > p{
-    color : color-mix(in oklab,#edecec/**/60%,transparent)
+    color : color-mix(in oklab,#edecec/**/60%,transparent);
 }
 
 #review-author-pic img{
     border-radius: 4px;
     width: 40px;
     height: 40px;
+}
+
+#changelog{
+    width: 1300px;
+    height: 222.26px;
+    margin: 0 auto;
+}
+
+#changelog h2{
+    font-size: 1.625rem;
+    color: #edecec;
+    line-height: 1.25;
+    font-weight: 400;
+    margin-bottom: 22.4px;
+}
+
+#log{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    width: 282.5px;
+    height: 85.067px;
+    padding: 15.9px 17.5px 20px 17.5px;
+    background-color: #1b1913;
+    box-sizing: content-box;
+}
+
+#log-info{
+    display: flex;
+}
+
+#log-info > #log-rating{
+    font-size: 0.875rem;
+    border: 1px solid color-mix(in oklab,#edecec 60%,transparent);
+    padding: 3.92px 9.1px 4.06px 9.1px;
+    letter-spacing: 0.01em;
+    border-radius: 3.40282e38px;
+    display: inline-flex;
+    position: relative;
+    top: 0.312rem;
+    color: color-mix(in oklab,#edecec 60%,transparent);
+}
+
+#log-date{
+    position: relative;
+    top: 0.319rem;
+    display: inline-flex;
+    padding: 3.92px 9.1px 4.06px 9.1px;
+    color: color-mix(in oklab,#edecec 60%,transparent);
+}
+
+#log-msg {
+    color: #edecec;
+    line-height: 1.5;
+    font-size: 1rem;
+    letter-spacing: 0.005em;
+}
+
+#logs {
+    display: flex;
+    gap: 10px;
+}
+
+#log-link {
+    color: #f54e00;
+    display: inline-flex;
+    margin-top: calc(1rem*1.4);
 }
